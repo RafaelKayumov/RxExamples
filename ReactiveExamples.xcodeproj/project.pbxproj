@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D9980438A02EA96662055A4 /* Pods_ReactiveNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB8D451DEA0CEED85661277 /* Pods_ReactiveNetworking.framework */; };
 		782572CA248A97D8009E25E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782572C9248A97D8009E25E2 /* AppDelegate.swift */; };
 		782572CE248A97D8009E25E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782572CD248A97D8009E25E2 /* ViewController.swift */; };
 		78257308248AFAF1009E25E2 /* ColorAnnotationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78257307248AFAF1009E25E2 /* ColorAnnotationViewModel.swift */; };
 		78257309248AFAF1009E25E2 /* PaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78257304248AFAF1009E25E2 /* PaletteView.swift */; };
 		7825730A248AFAF1009E25E2 /* PaletteOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78257306248AFAF1009E25E2 /* PaletteOutput.swift */; };
 		7825730B248AFAF1009E25E2 /* ColorPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78257305248AFAF1009E25E2 /* ColorPinView.swift */; };
+		78766126248E3C4700B607D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78766125248E3C4700B607D6 /* ViewController.swift */; };
+		78766136248E3D0000B607D6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78766135248E3D0000B607D6 /* Launch Screen.storyboard */; };
+		78766139248E3EA200B607D6 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78766138248E3EA200B607D6 /* Networking.swift */; };
+		7876613B248E412300B607D6 /* NetworkingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7876613A248E412300B607D6 /* NetworkingProtocol.swift */; };
+		7876613F248E42C400B607D6 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7876613E248E42C400B607D6 /* ApiClient.swift */; };
+		78766142248E442600B607D6 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78766141248E442600B607D6 /* Repository.swift */; };
+		78766144248E442E00B607D6 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78766143248E442E00B607D6 /* Issue.swift */; };
+		78766146248E456C00B607D6 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78766145248E456C00B607D6 /* Endpoints.swift */; };
+		78EEC90E248E5827002FFFB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782572C9248A97D8009E25E2 /* AppDelegate.swift */; };
+		78EEC911248E6D1F002FFFB4 /* GithubIssuesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EEC910248E6D1F002FFFB4 /* GithubIssuesProvider.swift */; };
 		78F6258D248AFF5400EDB987 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F6258C248AFF5400EDB987 /* Launch Screen.storyboard */; };
 		CFF55AA6E5E5DA294A80E3FC /* Pods_ReactiveColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B765B035CEA26A3285A7B856 /* Pods_ReactiveColorPicker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		127A5FCB19EC93413E12FCA4 /* Pods-ReactiveNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveNetworking.release.xcconfig"; path = "Target Support Files/Pods-ReactiveNetworking/Pods-ReactiveNetworking.release.xcconfig"; sourceTree = "<group>"; };
 		25D8ED9499B4F25138189BF5 /* Pods-ReactiveColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveColorPicker.debug.xcconfig"; path = "Target Support Files/Pods-ReactiveColorPicker/Pods-ReactiveColorPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		6214CDF1A2AE97FCF7BA96AC /* Pods-ReactiveNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveNetworking.debug.xcconfig"; path = "Target Support Files/Pods-ReactiveNetworking/Pods-ReactiveNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 		7123838F9C031EFA0775ED55 /* Pods-ReactiveColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveColorPicker.release.xcconfig"; path = "Target Support Files/Pods-ReactiveColorPicker/Pods-ReactiveColorPicker.release.xcconfig"; sourceTree = "<group>"; };
 		782572C6248A97D8009E25E2 /* Color Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		782572C9248A97D8009E25E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,7 +41,19 @@
 		78257305248AFAF1009E25E2 /* ColorPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPinView.swift; sourceTree = "<group>"; };
 		78257306248AFAF1009E25E2 /* PaletteOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteOutput.swift; sourceTree = "<group>"; };
 		78257307248AFAF1009E25E2 /* ColorAnnotationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAnnotationViewModel.swift; sourceTree = "<group>"; };
+		7876611F248E3C4700B607D6 /* Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Networking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78766125248E3C4700B607D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		7876612F248E3C4800B607D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		78766135248E3D0000B607D6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		78766138248E3EA200B607D6 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		7876613A248E412300B607D6 /* NetworkingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingProtocol.swift; sourceTree = "<group>"; };
+		7876613E248E42C400B607D6 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		78766141248E442600B607D6 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		78766143248E442E00B607D6 /* Issue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
+		78766145248E456C00B607D6 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		78EEC910248E6D1F002FFFB4 /* GithubIssuesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubIssuesProvider.swift; sourceTree = "<group>"; };
 		78F6258C248AFF5400EDB987 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8FB8D451DEA0CEED85661277 /* Pods_ReactiveNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B765B035CEA26A3285A7B856 /* Pods_ReactiveColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -41,13 +66,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7876611C248E3C4700B607D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9980438A02EA96662055A4 /* Pods_ReactiveNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		782572BD248A97D8009E25E2 = {
 			isa = PBXGroup;
 			children = (
+				78EEC90F248E583A002FFFB4 /* Common */,
 				782572C8248A97D8009E25E2 /* ReactiveColorPicker */,
+				78766120248E3C4700B607D6 /* ReactiveNetworking */,
 				782572C7248A97D8009E25E2 /* Products */,
 				D93EE62B3FD0C61DB7F090A9 /* Pods */,
 				F0FAF6B51CE8075B094DC7E3 /* Frameworks */,
@@ -58,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				782572C6248A97D8009E25E2 /* Color Picker.app */,
+				7876611F248E3C4700B607D6 /* Networking.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,7 +110,6 @@
 		7825730C248AFB50009E25E2 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				782572C9248A97D8009E25E2 /* AppDelegate.swift */,
 				782572CD248A97D8009E25E2 /* ViewController.swift */,
 				78257307248AFAF1009E25E2 /* ColorAnnotationViewModel.swift */,
 				78257305248AFAF1009E25E2 /* ColorPinView.swift */,
@@ -82,6 +117,71 @@
 				78257304248AFAF1009E25E2 /* PaletteView.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		78766120248E3C4700B607D6 /* ReactiveNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				78766134248E3C7B00B607D6 /* Source */,
+				78766133248E3C7200B607D6 /* Supporting-files */,
+			);
+			path = ReactiveNetworking;
+			sourceTree = "<group>";
+		};
+		78766133248E3C7200B607D6 /* Supporting-files */ = {
+			isa = PBXGroup;
+			children = (
+				7876612F248E3C4800B607D6 /* Info.plist */,
+				78766135248E3D0000B607D6 /* Launch Screen.storyboard */,
+			);
+			path = "Supporting-files";
+			sourceTree = "<group>";
+		};
+		78766134248E3C7B00B607D6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7876613C248E417100B607D6 /* Networking */,
+				7876613D248E429F00B607D6 /* API */,
+				78766140248E440700B607D6 /* Models */,
+				78766125248E3C4700B607D6 /* ViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7876613C248E417100B607D6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7876613A248E412300B607D6 /* NetworkingProtocol.swift */,
+				78766138248E3EA200B607D6 /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7876613D248E429F00B607D6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7876613E248E42C400B607D6 /* ApiClient.swift */,
+				78766145248E456C00B607D6 /* Endpoints.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		78766140248E440700B607D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78766141248E442600B607D6 /* Repository.swift */,
+				78766143248E442E00B607D6 /* Issue.swift */,
+				78EEC910248E6D1F002FFFB4 /* GithubIssuesProvider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		78EEC90F248E583A002FFFB4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				782572C9248A97D8009E25E2 /* AppDelegate.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		78F6258E248AFF9300EDB987 /* Supporting-files */ = {
@@ -98,6 +198,8 @@
 			children = (
 				25D8ED9499B4F25138189BF5 /* Pods-ReactiveColorPicker.debug.xcconfig */,
 				7123838F9C031EFA0775ED55 /* Pods-ReactiveColorPicker.release.xcconfig */,
+				6214CDF1A2AE97FCF7BA96AC /* Pods-ReactiveNetworking.debug.xcconfig */,
+				127A5FCB19EC93413E12FCA4 /* Pods-ReactiveNetworking.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -106,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				B765B035CEA26A3285A7B856 /* Pods_ReactiveColorPicker.framework */,
+				8FB8D451DEA0CEED85661277 /* Pods_ReactiveNetworking.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +235,25 @@
 			productReference = 782572C6248A97D8009E25E2 /* Color Picker.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7876611E248E3C4700B607D6 /* ReactiveNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78766130248E3C4800B607D6 /* Build configuration list for PBXNativeTarget "ReactiveNetworking" */;
+			buildPhases = (
+				9036F4D7B15B4324BDAED140 /* [CP] Check Pods Manifest.lock */,
+				7876611B248E3C4700B607D6 /* Sources */,
+				7876611C248E3C4700B607D6 /* Frameworks */,
+				7876611D248E3C4700B607D6 /* Resources */,
+				EB71BDF9B83643A20EC339BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveNetworking;
+			productName = ReactiveNetworking;
+			productReference = 7876611F248E3C4700B607D6 /* Networking.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -143,6 +265,9 @@
 				ORGANIZATIONNAME = "Rafael Kayumov";
 				TargetAttributes = {
 					782572C5248A97D8009E25E2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7876611E248E3C4700B607D6 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -161,6 +286,7 @@
 			projectRoot = "";
 			targets = (
 				782572C5248A97D8009E25E2 /* ReactiveColorPicker */,
+				7876611E248E3C4700B607D6 /* ReactiveNetworking */,
 			);
 		};
 /* End PBXProject section */
@@ -171,6 +297,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				78F6258D248AFF5400EDB987 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7876611D248E3C4700B607D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78766136248E3D0000B607D6 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +350,45 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactiveColorPicker/Pods-ReactiveColorPicker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9036F4D7B15B4324BDAED140 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactiveNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB71BDF9B83643A20EC339BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactiveNetworking/Pods-ReactiveNetworking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactiveNetworking/Pods-ReactiveNetworking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactiveNetworking/Pods-ReactiveNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -229,6 +402,22 @@
 				78257309248AFAF1009E25E2 /* PaletteView.swift in Sources */,
 				7825730B248AFAF1009E25E2 /* ColorPinView.swift in Sources */,
 				782572CA248A97D8009E25E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7876611B248E3C4700B607D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78766139248E3EA200B607D6 /* Networking.swift in Sources */,
+				78766144248E442E00B607D6 /* Issue.swift in Sources */,
+				7876613B248E412300B607D6 /* NetworkingProtocol.swift in Sources */,
+				78EEC911248E6D1F002FFFB4 /* GithubIssuesProvider.swift in Sources */,
+				78766126248E3C4700B607D6 /* ViewController.swift in Sources */,
+				7876613F248E42C400B607D6 /* ApiClient.swift in Sources */,
+				78766146248E456C00B607D6 /* Endpoints.swift in Sources */,
+				78EEC90E248E5827002FFFB4 /* AppDelegate.swift in Sources */,
+				78766142248E442600B607D6 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +572,40 @@
 			};
 			name = Release;
 		};
+		78766131248E3C4800B607D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6214CDF1A2AE97FCF7BA96AC /* Pods-ReactiveNetworking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rafael-Kayumov.ReactiveNetworking";
+				PRODUCT_NAME = Networking;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		78766132248E3C4800B607D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127A5FCB19EC93413E12FCA4 /* Pods-ReactiveNetworking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rafael-Kayumov.ReactiveNetworking";
+				PRODUCT_NAME = Networking;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -400,6 +623,15 @@
 			buildConfigurations = (
 				782572DB248A97DA009E25E2 /* Debug */,
 				782572DC248A97DA009E25E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78766130248E3C4800B607D6 /* Build configuration list for PBXNativeTarget "ReactiveNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78766131248E3C4800B607D6 /* Debug */,
+				78766132248E3C4800B607D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

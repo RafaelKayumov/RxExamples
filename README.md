@@ -2,9 +2,9 @@
 
 <center>
 
-|Color Picker|
-|---|
-![iPhoneScreenshot](ReadmeAssets/ColorPickerDemo.gif)|
+|Color Picker|Networking / Github issues|
+|---|---|
+|![iPhoneScreenshot](ReadmeAssets/ColorPickerDemo.gif)|![iPhoneScreenshot](ReadmeAssets/Networking.gif)|
 
 </center>
 

@@ -13,3 +13,7 @@ end
 target 'ReactiveColorPicker' do
     install_pods
 end
+
+target 'ReactiveNetworking' do
+    install_pods
+end
